@@ -1,21 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu - Nom du Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- 
-        INSTRUCTIONS :
-        1. Remplacez "Nom du Restaurant" par le nom de votre choix
-        2. Créez une structure sémantique (section, article, header, etc.)
-        3. Utilisez des listes (ul/li) pour les items de menu
-        4. Ajoutez des classes cohérentes (BEM recommandé)
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - Lèvrose</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MENU DU RESTAURANT</h1>
+    </header>
+    <section class="mets">
+      <h2>ENTRÉES</h2>
+      <ul>
+        <li class="menu">
+          <strong>Soupe riz poulet</strong> <strong class="prix">6,99$</strong>
+        </li>
+        <li class="description">Riz, poulet, carottes, laitue</li>
 
-        Instructions complètes ici: https://tim-montmorency.com/compendium/582-211-web2/exercices/cours3-menu-resto/index.html
-    -->
-    
-</body>
+        <li>
+          <strong>Salade de choux</strong> <em>[NOUVEAU]</em>
+          <strong class="prix">7,99$</strong>
+        </li>
+        <li class="description">
+          Choux, carottes, vinaigre, huile d'olive, poivré
+        </li>
+
+        <li>
+          <strong>Baguette de pain</strong> <strong class="prix">5,99$</strong>
+        </li>
+        <li class="description">Une baguette de pain. Rien de plus simple.</li>
+      </ul>
+    </section>
+
+    <section class="mets">
+      <h2>Plats principaux</h2>
+      <ul>
+        <li>
+          <strong>Filet mignon</strong> <strong class="prix">25,99$</strong>
+        </li>
+        <li class="description">10oz, frites ou patates (au choix), épices</li>
+
+        <li>
+          <strong>Entrecôte</strong> <em>[POPULAIRE]</em>
+          <strong class="prix">33,99$</strong>
+        </li>
+        <li class="description">
+          10oz, frites ou patates (au choix), feu modéré
+        </li>
+
+        <li><strong>T-Bone</strong> <strong class="prix">29,99$</strong></li>
+        <li class="description">
+          12oz, frites ou patates (au choix), épices, feu modéré
+        </li>
+      </ul>
+    </section>
+
+    <section class="mets">
+      <h2>Desserts</h2>
+      <ul>
+        <li>
+          <strong>Tarte au sucre</strong> <em>[POPULAIRE]</em>
+          <strong class="prix">8,99$</strong>
+        </li>
+        <li class="description">
+          Pâte briochée, sucre roux, oeufs, crème fraîche, beurre caramélisé
+        </li>
+
+        <li><strong>6 Brownies</strong> <strong class="prix">5,99$</strong></li>
+        <li class="description">Chocolat noir, sucre en poudre</li>
+
+        <li>
+          <strong>Galettes à l'avoine</strong> <em>[NOUVEAU]</em>
+          <strong class="prix">3,99$</strong>
+        </li>
+        <li class="description">
+          Flocons d'avoine, cassonade, poudre à pâte, vanille
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>
