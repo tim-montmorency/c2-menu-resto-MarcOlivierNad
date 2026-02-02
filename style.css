@@ -61,8 +61,8 @@ color: cyan;
 h1 {
   position: relative;
   font-size: 2vw;
-  margin: 30px;
-  left: 9vw;
+  padding: 40px;
+  left: 3vw;
   max-width: 800px;
 }
 
